@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1_ConsultarCep"
+             x:Class="App1_ConsultarCep.MainPage">
+
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
+        <Image Source="LogoCorreios.png" x:Name="txtLOGO"/>
+        <Entry Placeholder="Digite o cep" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF" x:Name="txtCEP"/>
+        <Button Text="BUSCAR CEP" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="txtBOTAOCEP"/>
+        
+        <Label Text="Criando Almanaque de Processos Donizete !" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" x:Name="txtRESULTADO"/>
+    </StackLayout>
+
+</ContentPage>

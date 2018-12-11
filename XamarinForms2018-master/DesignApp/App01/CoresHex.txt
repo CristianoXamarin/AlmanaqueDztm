@@ -1,0 +1,3 @@
+Fundo: #FFBF00
+Botão: #00416B
+Branco: #FFFFFF
